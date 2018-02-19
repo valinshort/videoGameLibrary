@@ -1,14 +1,24 @@
 package com.company;
 
-public class Game {
+public class Game  {
 
-    private String title;
+
+    protected String title;
     private String dueDate;
 
+
+    public void title() {
+    }
+
+
+    public class title {
+
+    }
 
     public Game(String title) {
         this.title = title;
         dueDate = "";
+
     }
 
     public String getTitle() {
@@ -17,6 +27,7 @@ public class Game {
 
     public void setTitle(String title) {
         this.title = title;
+
     }
 
     public String getDueDate() {
@@ -26,4 +37,6 @@ public class Game {
     public void setDueDate(String dueDate) {
         this.dueDate = dueDate;
     }
+
+
 }
